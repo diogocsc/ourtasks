@@ -1,3 +1,10 @@
+This is a task manager.
+You can list your tasks and assign them to others.
+You can create and edit tasks.
+Enjoy.
+
+----
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
