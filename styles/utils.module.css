@@ -1,0 +1,112 @@
+
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #666;
+}
+.card_title {
+  font-size: 24px;
+  margin: 0; 
+}
+.card_title-info {
+  font-size: 14px;
+  margin: 7px 0 10px; 
+}
+.card_button {
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 500;
+  margin: 25px 0 10px;
+  color: #fff;
+  background: linear-gradient(#ff6100, rgba(255, 80, 80, 1));
+  box-shadow: 0 2px 12px -3px rgba(255, 80, 80, 1);
+  opacity: 0.9;
+}
+.card_button:hover {
+  opacity: 1;
+  box-shadow: 0 2px 2px -3px rgba(255, 80, 80, 1);
+   
+}
+    
+.card_info{
+  font-size: 14px;
+}
+  
+.input{
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  padding-top: 10px;
+}
+.input_label {
+  color: #8597a3;
+  margin-bottom: 10px;
+}
+
+.input_field{
+  padding: 0;
+  z-index: 1;
+  background-color: transparent;
+  border: 1px solid rgb(128, 99, 99);
+  font: inherit;
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom:20px;
+
+}
+.input_field:focus, .input_field:valid {
+  outline: 0;
+  border-color: #665856;
+}
+
