@@ -57,7 +57,7 @@ export function Tasks({tasks, user, router}) {
   const removeTask = async (taskId, email, assignedTo, name, description, isDone) => {
     const index = assignedTo.indexOf(email);
     assignedTo.splice(index,1);
-    const res = await fetch(
+    await fetch(
       '/api/tasks/'+taskId,
       {
         body: JSON.stringify({
@@ -76,7 +76,7 @@ export function Tasks({tasks, user, router}) {
   }
 
   const markTask = async (taskId, assignedTo, name, description, isDone) => {
-    const res = await fetch(
+    await fetch(
       '/api/tasks/'+taskId,
       {
         body: JSON.stringify({
@@ -103,7 +103,7 @@ export function Tasks({tasks, user, router}) {
 
   const deleteTask = async (taskId, isDone) => {
     if (confirm("This will permanently delete the task for all users. Do you really want to delete this task? ")) {
-    const res = await fetch('/api/tasks/'+taskId, {
+    await fetch('/api/tasks/'+taskId, {
       method: 'DELETE'
     })
     isDone ? fetchTasks('/api/tasks/my') : fetchArchivedTasks('/api/tasks/myArchived')
